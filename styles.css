@@ -117,3 +117,9 @@ th {
         margin: 5px 0;
     }
 }
+header img.logo {
+  width: 50px;
+  height: auto; 
+  margin-right: 10px;
+  object-fit: contain; 
+}
