@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact us for inquiries about our cleaning services.">
+    <title>Contact - Cleaning Company</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cleaning Company</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contact Us</h2>
+            <form action="mailto:info@cleaningcompany.com" method="post" enctype="text/plain">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" maxlength="100" required>
+
+                <label for="body">Message:</label>
+                <textarea id="body" name="body" required></textarea>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="example@domain.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+
+                <label for="phone">Phone (optional):</label>
+                <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="\d{3}[-]\d{3}[-]\d{4}">
+
+                <fieldset>
+                    <legend>Preferred Contact Method:</legend>
+                    <label><input type="radio" name="contact-method" value="email" required>Email</label>
+                    <label><input type="radio" name="contact-method" value="phone">Phone</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Services Interested In:</legend>
+                    <label><input type="checkbox" name="services" value="window">Window Cleaning</label>
+                    <label><input type="checkbox" name="services" value="gutter">Gutter Cleaning</label>
+                </fieldset>
+
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date">
+
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Cleaning Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
