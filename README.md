@@ -2,7 +2,7 @@
 # Assignment 1: HTML and CSS
 Please work individually or in pairs (pairs will be the same for Assignment 2)
 
-## Outcomes
+## Outcomes...
 The intent of this assignment is to build towards a mastery of using HTML and CSS. Skills learned in this assignment are subject to examination. Upon successful completion of this assignment the student will:
 - Understand the syntax of HTML markup.
 - Be able to describe and apply semantic tags to create structural meaning.
